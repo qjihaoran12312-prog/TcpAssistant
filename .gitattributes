@@ -1,0 +1,16 @@
+# 统一换行符，避免 Windows 与 Linux 协作时满屏 diff
+* text=auto
+
+# 批处理必须保持 CRLF，否则 cmd 解析会出问题
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 解决方案文件用 CRLF 更符合 Visual Studio 习惯
+*.sln text eol=crlf
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.ico binary
+*.dll binary
+*.exe binary
