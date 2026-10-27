@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>MockYvison</RootNamespace>
+    <AssemblyName>MockYvison</AssemblyName>
+    <Product>Yvison 模拟服务端</Product>
+  </PropertyGroup>
+</Project>
